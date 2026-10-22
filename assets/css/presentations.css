@@ -15,17 +15,6 @@
   line-height: 1.5;
 }
 
-.presentation-title a {
-  color: inherit;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
-}
-
-.presentation-title a:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 4px;
-}
-
 .presentation-details {
   margin: 0;
   color: var(--global-text-color-light);

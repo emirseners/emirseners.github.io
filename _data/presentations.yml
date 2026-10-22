@@ -1,25 +1,27 @@
-# Add presentation PDFs under assets/pdf/presentations/ and set each pdf field
-# to its site path, for example: /assets/pdf/presentations/water-networks.pdf.
 - title: New Convex Relaxations for Global Optimization Problems in Water Networks
   event: Workshop on Graph Theory and Its Applications XIII
+  event_url: https://bilmuh.gtu.edu.tr/~dgozupek/wgt2026/
   venue: Boğaziçi University, İstanbul, Turkey
-  date: 16 October 2026
+  date: October 2026
   pdf: /assets/pdf/presentations/water-networks-2026.pdf
 
 - title: Benders Decomposition with Partial Non-Anticipativity Relaxation for Multi-Stage Stochastic Clean Energy Transition Planning
   event: YAEM 2026
+  event_url: https://www.yad.org.tr/tr/yaem/kongreler/
   venue: İstanbul Technical University, İstanbul, Turkey
   date: July 2026
-  pdf:
+  pdf: /assets/pdf/presentations/transition-planning-2026.pdf
 
 - title: A Dynamic Strategic Plan for Transition to Campus-Scale Clean Electricity Using Multi-Stage Stochastic Programming
   event: YAEM 2025
+  event_url: https://www.yad.org.tr/tr/yaem/kongreler/
   venue: Gazi University, Ankara, Turkey
   date: June 2025
-  pdf:
+  pdf: /assets/pdf/presentations/transition-planning-2025.pdf
 
 - title: Clean Electricity Transition under Technology Cost and Efficiency Uncertainty for Distributed Energy Systems
   event: YAEM 2024
+  event_url: https://www.yad.org.tr/tr/yaem/kongreler/
   venue: Karadeniz Technical University, Trabzon, Turkey
   date: October 2024
-  pdf:
+  pdf: /assets/pdf/presentations/transition-planning-2024.pdf

@@ -25,7 +25,11 @@ stylesheet: /assets/css/presentations.css
         {% endif %}
       </h2>
       <p class="presentation-details">
-        {{ presentation.event | escape }}<br>
+        {% if presentation.event_url %}
+          <a href="{{ presentation.event_url | escape }}" target="_blank" rel="noopener">{{ presentation.event | escape }}</a>
+        {% else %}
+          {{ presentation.event | escape }}
+        {% endif %}<br>
         {{ presentation.venue | escape }} · {{ presentation.date | escape }}
       </p>
     </li>
