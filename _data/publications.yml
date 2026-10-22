@@ -1,0 +1,26 @@
+- title: Refereed Conference Proceedings
+  id: refereed-conference-proceedings
+  entries:
+    - title: A Dynamic Model of Workforce Management During Seasonal Epidemics
+      authors: Ahmet Emir Şener and Gönenç Yücel
+      year: 2025
+      details: Proceedings of the International System Dynamics Conference, Boston, USA.
+      url: https://proceedings.systemdynamics.org/2025/papers/P1188.pdf
+      link_label: PDF
+
+- title: Manuscripts
+  id: manuscripts
+  entries:
+    - title: Benders Decomposition with Partial Non-Anticipativity Relaxation for Multi-Stage Stochastic Clean Energy Transition Planning
+      authors: Ahmet Emir Şener, Burak Kocuk, and Tuğçe Yüksel
+      year: 2026
+      details: Submitted to European Journal of Operational Research.
+      url: https://arxiv.org/abs/2608.14105
+      link_label: arXiv:2608.14105
+
+    - title: A Dynamic Strategic Plan for Transition to Campus-Scale Clean Electricity Using Multi-Stage Stochastic Programming
+      authors: Ahmet Emir Şener, Burak Kocuk, and Tuğçe Yüksel
+      year: 2025
+      details: Submitted to Sustainable Energy Technologies and Assessments.
+      url: https://arxiv.org/abs/2506.16423
+      link_label: arXiv:2506.16423

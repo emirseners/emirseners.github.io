@@ -3,7 +3,7 @@ layout: page
 title: Presentations
 permalink: /presentations/
 nav: true
-nav_order: 2
+nav_order: 3
 page_class: presentations-page
 stylesheet: /assets/css/presentations.css
 ---

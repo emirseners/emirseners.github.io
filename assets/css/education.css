@@ -1,0 +1,38 @@
+.education-list {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.education-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+}
+
+.education-degree {
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.education-period {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 575px) {
+  .education-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,3 +1,7 @@
+:root {
+  --global-text-color-light: #666666;
+}
+
 .post > .post-header {
   margin-bottom: 4rem;
   text-align: center;
@@ -6,6 +10,11 @@
 .post > .post-header > .post-title {
   color: var(--global-theme-color);
   font-weight: 300;
+}
+
+/* Override the theme's 4rem social icon size. */
+.social .contact-icons {
+  font-size: 2rem;
 }
 
 @media (max-width: 575px) {
