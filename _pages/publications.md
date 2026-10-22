@@ -15,19 +15,20 @@ stylesheet: /assets/css/publications.css
       <ol class="publication-list">
         {% for publication in section.entries %}
           <li class="publication-entry">
-            <h3 class="publication-title">{{ publication.title | escape }}</h3>
-            <p class="publication-authors">{{ publication.authors | escape }} ({{ publication.year | escape }}).</p>
-            <p class="publication-details">
-              {{ publication.details | escape }}
+            <h3 class="publication-title">
+              {{ publication.title | escape }}
               {% if publication.url %}
                 <a
+                  class="resource-link"
                   href="{{ publication.url | escape }}"
                   target="_blank"
                   rel="noopener"
                   aria-label="{{ publication.link_label | escape }} for {{ publication.title | escape }} (opens in a new tab)"
-                >{{ publication.link_label | escape }}</a>
+                >[{{ publication.link_label | escape }}]</a>
               {% endif %}
-            </p>
+            </h3>
+            <p class="publication-authors">{{ publication.authors | escape }} ({{ publication.year | escape }}).</p>
+            <p class="publication-details">{{ publication.details | escape }}</p>
           </li>
         {% endfor %}
       </ol>

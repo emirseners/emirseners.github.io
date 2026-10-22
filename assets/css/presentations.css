@@ -22,6 +22,11 @@
   line-height: 1.65;
 }
 
+.presentation-date {
+  color: inherit;
+  white-space: nowrap;
+}
+
 @media (max-width: 575px) {
   .presentation-list {
     gap: 1.25rem;
