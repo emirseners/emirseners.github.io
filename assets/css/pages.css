@@ -1,0 +1,15 @@
+.post > .post-header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.post > .post-header > .post-title {
+  color: var(--global-theme-color);
+  font-weight: 300;
+}
+
+@media (max-width: 575px) {
+  .post > .post-header {
+    margin-bottom: 3rem;
+  }
+}

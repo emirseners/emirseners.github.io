@@ -1,0 +1,13 @@
+---
+layout: page
+---
+{{ content }}
+
+{% if page.social %}
+  <div class="social">
+    <div class="contact-icons">{% social_links %}</div>
+    {% if site.contact_note %}
+      <div class="contact-note">{{ site.contact_note }}</div>
+    {% endif %}
+  </div>
+{% endif %}
