@@ -7,17 +7,30 @@
   font-weight: 700;
 }
 
-.post a[href]:not(.contact-icons a),
-.navbar.navbar-light a[href],
-.navbar.navbar-light .navbar-nav .nav-item .nav-link,
+.post a[href]:not(:where(.contact-icons a)),
 footer.fixed-bottom a[href] {
-  color: var(--global-theme-color);
+  color: inherit;
   text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
 }
 
-.post a[href]:not(.contact-icons a):focus-visible,
+.post a[href]:not(:where(.contact-icons a)):is(:hover, :focus-visible),
+.post a.resource-link[href],
+footer.fixed-bottom a[href]:is(:hover, :focus-visible) {
+  color: var(--global-theme-color);
+  text-decoration-color: currentColor;
+}
+
+.resource-link {
+  margin-left: 0.35em;
+  font-size: 0.85rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.post a[href]:not(:where(.contact-icons a)):focus-visible,
 .navbar.navbar-light a[href]:focus-visible,
 footer.fixed-bottom a[href]:focus-visible {
   outline: 2px solid currentColor;

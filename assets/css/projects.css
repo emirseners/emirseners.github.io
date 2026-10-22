@@ -7,11 +7,27 @@
   list-style: none;
 }
 
+.project-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 0.25rem 1.5rem;
+}
+
 .project-title {
   margin: 0;
+  color: var(--global-text-color);
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.project-period {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  white-space: nowrap;
 }
 
 .projects-more {
@@ -20,6 +36,12 @@
   color: var(--global-text-color-light);
   font-size: 0.9rem;
   line-height: 1.65;
+}
+
+@media (max-width: 767px) {
+  .project-entry {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 575px) {
