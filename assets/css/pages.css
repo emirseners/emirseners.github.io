@@ -2,6 +2,28 @@
   --global-text-color-light: #666666;
 }
 
+.author-name {
+  color: inherit;
+  font-weight: 700;
+}
+
+.post a[href]:not(.contact-icons a),
+.navbar.navbar-light a[href],
+.navbar.navbar-light .navbar-nav .nav-item .nav-link,
+footer.fixed-bottom a[href] {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.post a[href]:not(.contact-icons a):focus-visible,
+.navbar.navbar-light a[href]:focus-visible,
+footer.fixed-bottom a[href]:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
 .post > .post-header {
   margin-bottom: 4rem;
   text-align: center;
@@ -12,7 +34,6 @@
   font-weight: 300;
 }
 
-/* Override the theme's 4rem social icon size. */
 .social .contact-icons {
   font-size: 2rem;
 }

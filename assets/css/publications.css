@@ -41,16 +41,6 @@
   line-height: 1.65;
 }
 
-.publication-details a {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
-}
-
-.publication-details a:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 4px;
-}
-
 @media (max-width: 575px) {
   .publication-list {
     gap: 1.25rem;

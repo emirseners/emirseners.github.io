@@ -1,0 +1,29 @@
+.project-list {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.projects-more {
+  max-width: 48rem;
+  margin: 2rem auto 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 575px) {
+  .project-list {
+    gap: 1.25rem;
+  }
+}
