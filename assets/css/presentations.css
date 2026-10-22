@@ -1,0 +1,49 @@
+.presentations-page .post-header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.presentation-list {
+  display: grid;
+  gap: 2.75rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.presentation-title {
+  margin: 0 0 0.65rem;
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.presentation-title a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.presentation-title a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.presentation-details {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 575px) {
+  .presentations-page .post-header {
+    margin-bottom: 3rem;
+  }
+
+  .presentation-list {
+    gap: 2rem;
+  }
+}
