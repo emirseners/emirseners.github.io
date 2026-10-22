@@ -10,6 +10,7 @@ latest_posts:
   enabled: false
 ---
 
-Welcome to my personal website.
+I am pursuing an M.S. in Industrial Engineering at Boğaziçi University,
+where I also earned my B.S. My research interests include stochastic and convex optimization.
 
-You can find my projects on [GitHub](https://github.com/emirseners).
+[Curriculum vitae (PDF)]({{ '/assets/pdf/ahmet-emir-sener-cv.pdf' | relative_url }})

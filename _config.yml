@@ -1,10 +1,11 @@
 # Personal site
 title: blank
-first_name: Emir
-last_name: Sener
-description: Emir Sener's personal website.
+first_name: Ahmet Emir
+last_name: Şener
+description: >
+  Ahmet Emir Şener is an M.S. student in Industrial Engineering at
+  Boğaziçi University with research interests in stochastic and convex optimization.
 lang: en
-icon: "👋"
 url: https://emirseners.github.io
 baseurl: ""
 timezone: Europe/Istanbul
@@ -60,7 +61,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
   - vendor
 keep_files:
   - CNAME
@@ -94,6 +94,12 @@ third_party_libraries:
     url:
       css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{version}}/css/all.min.css"
     version: "7.2.0"
+  academicons:
+    integrity:
+      css: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/academicons@{{version}}/css/academicons.min.css"
+    version: "1.9.5"
   google_fonts:
     url:
       fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
