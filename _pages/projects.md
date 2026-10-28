@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Research & Projects
 permalink: /projects/
 nav: true
 nav_order: 2
@@ -9,6 +9,18 @@ stylesheet: /assets/css/projects.css
 ---
 
 <ul class="project-list">
+  <li class="project-entry">
+    <h2 class="project-title">
+      New Convex Relaxations for Global Optimization Problems in Water Networks
+    </h2>
+    <p class="project-period">February 2026 – Present</p>
+  </li>
+  <li class="project-entry">
+    <h2 class="project-title">
+      Strategic Planning for Transition to Next Generation Clean Energy Technologies using Multi-Stage Stochastic Programming
+    </h2>
+    <p class="project-period">February 2024 – February 2026</p>
+  </li>
   <li class="project-entry">
     <h2 class="project-title">
       Assessment of Alternative Bidding Strategies in a Multi-Actor Context of the Turkish Electricity Market
