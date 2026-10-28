@@ -1,0 +1,56 @@
+.about-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 145px;
+  align-items: start;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.about-details {
+  min-width: 0;
+}
+
+.about-name {
+  margin: 0 0 1.25rem;
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.about-email {
+  margin: 0 0 1rem;
+  overflow-wrap: anywhere;
+}
+
+.about-cv {
+  margin: 0;
+}
+
+.about-portrait {
+  width: 145px;
+  margin: 0;
+}
+
+.about-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+@media (max-width: 575px) {
+  .about-header {
+    grid-template-columns: minmax(0, 1fr) 100px;
+    gap: 1rem;
+  }
+
+  .about-name {
+    font-size: 1.75rem;
+  }
+
+  .about-portrait {
+    width: 100px;
+  }
+}

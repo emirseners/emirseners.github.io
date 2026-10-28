@@ -1,13 +1,38 @@
 ---
-layout: page
+layout: default
 ---
-{{ content }}
-
-{% if page.social %}
-  <div class="social">
-    <div class="contact-icons">{% social_links %}</div>
-    {% if site.contact_note %}
-      <div class="contact-note">{{ site.contact_note }}</div>
+<link rel="stylesheet" href="{{ '/assets/css/pages.css' | relative_url | bust_file_cache }}">
+<link rel="stylesheet" href="{{ page.stylesheet | relative_url | bust_file_cache }}">
+<div class="post about-page">
+  <header class="about-header">
+    <div class="about-details">
+      <h1 class="about-name">{{ site.title | escape }}</h1>
+      <p class="about-email">
+        <a href="mailto:{{ site.data.socials.email | escape }}">{{ site.data.socials.email | escape }}</a>
+      </p>
+      <p class="about-cv">
+        Curriculum vitae <a class="resource-link" href="{{ site.data.socials.cv_pdf | relative_url }}" type="application/pdf" target="_blank" rel="noopener" aria-label="Curriculum vitae (PDF, opens in a new tab)">[PDF]</a>
+      </p>
+    </div>
+    {% if page.portrait %}
+      <figure class="about-portrait">
+        <img
+          src="{{ page.portrait | relative_url }}"
+          alt="Portrait of {{ site.title | escape }}"
+          width="936"
+          height="1016"
+          decoding="async"
+        >
+      </figure>
     {% endif %}
-  </div>
-{% endif %}
+  </header>
+  <article class="about-bio">{{ content }}</article>
+  {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">{% social_links %}</div>
+      {% if site.contact_note %}
+        <div class="contact-note">{{ site.contact_note }}</div>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>
